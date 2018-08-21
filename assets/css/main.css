@@ -2192,9 +2192,17 @@ h3.resume {
     margin: 0;
 }
 
+h2.resume {
+  font-weight: 500;
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+}
+
 p.resume {
-    font-weight: 500;
+    font-weight: 300;
     margin: 0 0 0.5em 0;
+    /* color: red; */
+    font-size: 0.9em;
 }
 
 ul.resume {
@@ -3466,7 +3474,7 @@ body.is-loading #header:after {
 
     /* Header */
     #header {
-        padding: 6em/*3em 6em 3em */
+        padding: 6em 12em 6em 12em
         ;
     }
 }
